@@ -1,0 +1,389 @@
+#logo{
+    width: 200px;
+}
+
+#naufal1-picture{
+    height: 150px;
+    width: 150px;
+}
+
+#naufal2-picture{
+    height: 250px;
+    width: 250px;
+}
+
+*, body{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    text-decoration: underline;
+}
+
+body{
+    background-color: #bee1d6;
+    height: 100%;
+}
+
+/* navbar */
+
+nav{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: #7cc7b4;
+    box-shadow: -1px -7px 20px 0px #ECEEEE;
+}
+
+nav a{
+    position: relative;
+    margin: 0;
+    top: 7px;
+    float: left;
+    left: 1.5%;
+}
+
+nav ul{
+    position: relative;
+    top: 13px;
+    margin: 0;
+    float: right;
+    right: 5%;
+}
+
+nav ul li{
+    float: left;
+    display: block;
+    margin: 0px 15px 0px 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #EEEEEE;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li a:hover{
+    color: #2B2E2E;
+}
+
+/* footer */
+
+footer{
+    position: absolute;
+    height: 40px;
+    background-color: #7cc7b4;
+    box-shadow: -1px -7px 20px 0px #ECEEEE;
+    width: 100%;
+    bottom: 0px;
+}
+
+footer ul{
+    position: relative;
+    top: 10px;
+    margin: 0;
+    float: right;
+    right: 5%;
+}
+
+footer ul li{
+    float: left;
+    display: block;
+    margin: 0px 15px 0px 15px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #EEEEEE;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer ul li a:hover{
+    color: #2B2E2E;
+}
+
+/* main.html */
+
+section#box-profile{
+    position: relative;
+    width: 80%;
+    min-height: 350px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 160px;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 0 7px 0px #7cc7b4;
+}
+
+#box-profile .img-profile{
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+    float: left;
+    top: 100px;
+    margin-left: 70px;
+}
+
+.img-profile #naufal1-picture{
+    height: 75%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0px -20px;
+    border-radius: 200px;
+}
+
+.description{
+    position: relative;
+    width: 200px;
+    display: inline-block;
+    float: left;
+    top: 140px;
+    margin-right: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 1px solid #fff;
+}
+
+.description h1{
+    font-size: 32px;
+    margin-bottom: 14px;
+}
+
+.description p{
+    color: #888;
+}
+
+.information{
+    position: relative;
+    display: inline-block;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 120px;
+    margin-right: 10px;
+}
+
+.information .data{
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+}
+
+.information p.field1{
+    font-weight: 600;
+    width: 40%;
+    color: #333;
+}
+
+.information .data p{
+    float: left;
+}
+
+/* form page */
+
+section#input-form{
+    position: absolute;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1.7%;
+    margin-bottom: 1.7%;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 7px 0px rgba(136, 146, 146, 0.2 );
+    padding: 20px;
+}
+
+#input-form .head{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+#input-form .form{
+    width: 100%;
+    display: grid;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#input-form .submit{
+    margin-left: 1105px;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.form .input1{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px 10px 20px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #8888;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.submit .input2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px 10px 20px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #8888;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    background-color: #bee1d6;
+}
+
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px 10px 20px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #8888;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+/* about me page */
+
+section#about-me{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    display: inline-block;
+    max-width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 7px 0px rgba(136, 146, 146, 0.2 );
+    padding: 20px;
+}
+
+#about-me .about{
+    width: 65%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#about-me .aboutt{
+    width: 65%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 1.5;
+}
+
+#about-me .skill{
+    width: 30%;
+    float: left;
+    margin-left: 30px;
+    line-height: 1.5;
+}
+
+#about-me .head{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+#about-me .img-profile{
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.img-profile #naufal2-picture{
+    height: 70%;
+    background-position: 0px -20px;
+    border-radius: 10px;
+}
+
+/* my-project */
+
+section#table-sec{
+    position: absolute;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 7px 0px rgba(136, 146, 146, 0.2 );
+    padding: 30px;
+}
+
+#table-sec .head{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+#table-sec .table-page .table{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 30px;
+}
+
+.table .row1{
+    background-color: #888;
+    color: black;
+    padding-bottom: 10px;
+}
+
+.table .row2{
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.table .row3{
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.table .row4{
+    background-color: white;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.table .no{
+    width: 50px;
+}
+
+.table .projek{
+    width: 300px;
+}
+
+.table .as{
+    width: 200px;
+}
+
+.table .desc{
+    width: 800px;
+}
