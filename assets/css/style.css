@@ -71,7 +71,7 @@ nav ul li a:hover{
 /* footer */
 
 footer{
-    position: relative;
+    position: absolute;
     height: 40px;
     background-color: #7cc7b4;
     box-shadow: -1px -7px 20px 0px #ECEEEE;
@@ -80,7 +80,7 @@ footer{
 }
 
 footer ul{
-    position: relative;
+    position: absolute;
     top: 10px;
     margin: 0;
     float: right;
