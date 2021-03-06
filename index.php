@@ -9,7 +9,7 @@
 <body>
 
     <nav>
-        <a href="main.html"><img id="logo" src="assets/img/lambang web.png" alt="web"></a>
+        <a href="index.php"><img id="logo" src="assets/img/lambang web.png" alt="web"></a>
         <ul>
             <li><a href="my_project.html">My Project</a></li>
             <li><a href="about_me.html">About Me</a></li>
